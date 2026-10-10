@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# Generated certificates (keep the folder, ignore its contents)
+generated_certificates/*
+!generated_certificates/.gitkeep
+
+# Python caches / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.log
+
+# Secrets / local config
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

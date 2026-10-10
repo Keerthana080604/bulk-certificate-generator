@@ -1,0 +1,10 @@
+{
+  "event_name": "Python Workshop",
+  "organization": "ABC Institute",
+  "issue_date": "2026-10-10",
+  "recipients": [
+    {"name": "Keerthana Bammidi", "email": "keerthana@example.com", "certificate_title": "Certificate of Completion"},
+    {"name": "Rahul Kumar", "email": "rahul@example.com", "certificate_title": "Certificate of Participation"},
+    {"name": "Bad Email Person", "email": "not-an-email", "certificate_title": "Certificate of Participation"}
+  ]
+}
